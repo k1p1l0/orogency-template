@@ -2,8 +2,20 @@
 	padding: 0!important;
 }
 
+.text-center {
+	text-align: center;
+}
+
+.main-padding {
+	padding: 0 80px !important;
+}
+
+.debug {
+	border: 1px solid red;
+}
+
 /* MAIN MENU START*/
-.mainmenu {
+.main-navigation {
 	background-color: #1c1c1c;
 	display: flex;
 	flex-direction: row;
@@ -12,35 +24,36 @@
 	padding: 25px 80px 25px 80px;
 }
 
-.mainmenu .logo {
+.main-navigation .logo {
 	font-size: 27px;
 	padding-left: 40px;
 	color: #d3a13e;
 }
 
-.mainmenu .link-list {
+.main-navigation .link-list {
 	padding-right: 50px;
 	display: flex;
 	flex-direction: row;
 }
 
-.mainmenu .link-list div {
+.main-navigation .link-list div {
 	padding-left: 50px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
-.mainmenu .link-list div a {
+.main-navigation .link-list div a {
 	color: #ffffff;
 }
 
-.mainmenu .social {
+.main-navigation .social {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-.mainmenu .social a {
+.main-navigation .social a {
 	color: #7e7e7e;
 	width: 50px;
     height: 50px;
@@ -55,7 +68,7 @@
     font-size: 25px;
 }
 
-.mainmenu .social a:hover { 
+.main-navigation .social a:hover { 
 	border: 2px solid #ba933e;
 	color: #ba933e;
 }
@@ -79,5 +92,165 @@
 .youtube:before { 
     content: "\f16a"; 
 }
-
 /* MAIN MENU END*/
+
+
+/* CONSULTANT SECTION START */
+.consultant {
+	background-image: url(../images/consultant-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 5px;	
+}
+
+.consultant .section-heading {
+	margin: 155px 0;
+}
+
+.section-heading h1 {
+	color: #d3a13e;
+	font-size: 58px;
+	margin: 45px 0;
+	text-transform: uppercase;
+}
+
+.section-heading h3 {
+	color: #d3a13e;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.btn {
+	border-radius: 0!important;
+}
+
+.btn.orange {
+	background-color: #ba933e;
+}
+
+.btn-consultant {
+	padding: 10px 30px!important;
+	font-size: 30px!important;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+/* CONSULTANT SECTION END */
+
+
+/* SERVICES SECTION START*/
+.services {
+	padding: 10px 80px!important;
+	background-color: #151515;
+	letter-spacing: 20px;	
+}
+
+.services .item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 36vh;
+	width: 100%;
+	text-decoration: none;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services .item .item-header {
+	color: #d3a13e;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4vh;
+	font-weight: 800;
+	text-decoration: none;
+	word-spacing: 9999999px;
+}
+
+.services .branding {
+	background-image: url(../images/services/branding.jpg);
+}
+
+.services .social {
+	background-image: url(../images/services/socialmedia.jpg);
+}
+
+.services .content {
+	background-image: url(../images/services/content.jpg);
+}
+
+
+/* SERVICES SECTION END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES FLEX START*/
+.services-flex {
+	background-color: #151515;
+	padding: 10px 80px!important;
+}
+
+.container-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container-flex .item {
+   	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item.branding-f {
+	background-image: url(../images/services/branding.jpg);
+}
+
+.item.social-f {
+	background-image: url(../images/services/socialmedia.jpg);
+}
+
+.item .item-header-flex {
+	color: #d3a13e;
+	text-transform: uppercase;
+	font-size: 3vh;
+	padding: 15vh 0;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: 20px;	
+}
+/* SERVICES FLEX END*/
