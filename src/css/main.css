@@ -2,14 +2,14 @@
 	padding: 0!important;
 }
 
+/* MAIN MENU START*/
 .mainmenu {
 	background-color: #1c1c1c;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 80px 0 80px;
-	height: 100px;
+	padding: 25px 80px 25px 80px;
 }
 
 .mainmenu .logo {
@@ -19,16 +19,65 @@
 }
 
 .mainmenu .link-list {
+	padding-right: 50px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
 .mainmenu .link-list div {
-	padding-left: 140px;
+	padding-left: 50px;
 	text-transform: uppercase;
 }
 
 .mainmenu .link-list div a {
 	color: #ffffff;
 }
+
+.mainmenu .social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainmenu .social a {
+	color: #7e7e7e;
+	width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 2px solid #7c7c7c;
+    line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+    font-family: "FontAwesome";
+    font-size: 25px;
+}
+
+.mainmenu .social a:hover { 
+	border: 2px solid #ba933e;
+	color: #ba933e;
+}
+
+.facebook:before { 
+    content: "\f09a"; 
+}
+
+.twitter:before { 
+    content: "\f099"; 
+}
+
+.linkedin:before { 
+    content: "\f0e1"; 
+}
+
+.instagram:before { 
+    content: "\f16d"; 
+}
+
+.youtube:before { 
+    content: "\f16a"; 
+}
+
+/* MAIN MENU END*/
