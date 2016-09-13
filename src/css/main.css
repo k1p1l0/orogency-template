@@ -491,5 +491,17 @@ body {
 	font-weight: 800px;
    	outline: none; 
 }
-
 /* ABOUT SECTION END */
+
+
+
+/* MAIN FOOTER START */
+footer.main-footer {
+	padding: 40px;
+}
+
+footer.main-footer .address{
+	color: #868686;
+	margin-top: 10px;
+}
+/* MAIN FOOTER END */
