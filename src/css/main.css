@@ -240,5 +240,61 @@
 	color: #3c321c;
 	padding: 6px 50px;
 }
-	
 /* BRANDING SECTION END */
+
+
+
+/* CONTENT DEVELOPMENT START*/
+
+.content-development {
+	padding: 60px 0px!important;
+	background-color: #a67423;
+}
+
+.content-development .max {
+}
+
+.content-development .content-header h1 {
+	padding-bottom: 20px;
+	margin: 0!important;
+	color: #362716;
+	text-transform: uppercase;
+}
+
+.content-development .content-header hr.dotted {
+	height: 3px;
+	background-image: linear-gradient(to right, #66451d 33%, rgba(255,255,255,0) 0%);
+	background-position: bottom;
+	background-size: 25px 10px;	
+	background-repeat: repeat-x;
+	border: none;
+}
+
+.content-development .padding {
+	padding: 30px 80px 0 80px;
+}
+
+.content-development p {
+	white-space: pre-line;
+	color: #241902;
+	font-size: 21px;
+}
+
+.content-development .btn-content {
+	text-transform: uppercase;
+	background-color: #6c4d1c;
+	font-size: 26px;
+	color: #a68135;
+	padding: 6px 50px;
+}
+
+.content-development .content-logo {
+	height: 116px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/content/logo.png);
+	margin-bottom: 10px;
+}
+
+/* CONTENT DEVELOPMENT END*/
