@@ -18,6 +18,10 @@
 	border: 1px solid red;
 }
 
+body {
+	background-color: #151515!important;
+}
+
 
 /* MAIN MENU START*/
 .main-navigation {
@@ -303,3 +307,81 @@
 	background-image: url(../images/content/logos.jpg);
 }
 /* CONTENT DEVELOPMENT END*/
+
+
+/* VIDEO SECTION START*/
+.video {
+	background-color: #151515;
+}
+
+.video .item {
+	height: 269px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/video/bottle_1.png);
+}
+
+.video .item:nth-child(2n) {
+	height: 269px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/video/bottle_2.png);
+}
+
+/* VIDEO SECTION END*/
+
+/* ABOUT SECTION START */
+.about {
+	background-color: #151515;
+	height: 900px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../images/about/bg.png);
+}
+
+.about .greeting {
+	margin-top: 55%;
+	margin-left: 25%;
+	vertical-align: middle;
+}
+
+.about .greeting h1 {
+	font-size: 109px;
+	color: #ba933e;
+	opacity: .5;
+}
+
+.about .greeting h3 {
+	font-size: 35px;
+	color: #999999;
+	opacity: .5;
+}
+
+.about .greeting h2 {
+	font-size: 53px;
+	color: #eeeeee;
+	opacity: .5;
+}
+
+.about .greeting span.artist {
+	position: relative;
+	left: 270px;
+	display: block;
+	width: 250px;
+	height: 44px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../images/about/artist-bg.png);
+	color: rgb(1, 10, 13);
+	text-align: center;
+	font-size: 29px;
+	opacity: .5;
+	padding-left: 20px;
+}
+
+
+/* ABOUT SECTION END */
