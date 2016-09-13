@@ -11,7 +11,7 @@
 }
 
 .main-color {
-	color: #ba933e;
+	color: #ba933e!important;
 }
 
 .debug {
@@ -55,14 +55,14 @@ body {
 	color: #ffffff;
 }
 
-.main-navigation .social {
+.social {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-.main-navigation .social a {
+.social a {
 	color: #7e7e7e;
 	width: 50px;
     height: 50px;
@@ -77,8 +77,9 @@ body {
     font-size: 25px;
 }
 
-.main-navigation .social a:hover { 
+.social a:hover { 
 	border: 2px solid #ba933e;
+	text-decoration: none;
 	color: #ba933e;
 }
 
@@ -379,9 +380,116 @@ body {
 	color: rgb(1, 10, 13);
 	text-align: center;
 	font-size: 29px;
-	opacity: .5;
+	opacity: .9;
 	padding-left: 20px;
 }
 
+.about .feedback {
+	padding-top: 80px;
+	opacity: .9;
+}
+
+.about .feedback .feedback-head h1 {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 700;
+	margin-right: 25px;
+}
+
+.about .feedback .feedback-head .social {
+	justify-content: flex-start;
+}
+
+.about .feedback .feedback-head .social a {
+	color: #a0a0a0;
+    border: 2px solid #a0a0a0;
+}
+
+.about .feedback .feedback-head .social a:hover {
+	border: 2px solid #ba933e;
+	text-decoration: none;
+	color: #ba933e;
+}
+
+.about .feedback .feedback-head p {
+	padding-top: 25px;
+	color: #e7e7e7;
+	font-size: 22px;
+	white-space: pre-line;
+}
+
+.about .feedback .feedback-main {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.about .feedback .feedback-main .item {
+	position: relative;
+	font-size: 25px;
+	padding-right: 90px;
+	padding-left: 55px;
+	letter-spacing: 2px;
+}
+
+.about .feedback .feedback-main .email:before {
+	position: absolute;
+	left: 0;
+	top: -10px;
+    font-family: "FontAwesome";
+    font-size: 40px;
+	content: '\f003';
+}
+
+.about .feedback .feedback-main .phone:before {
+	position: absolute;
+	left: 0;
+	top: -10px;
+    font-family: "FontAwesome";
+    font-size: 40px;
+	content: '\f095';
+}
+
+.about .feedback .feedback-footer {
+	padding-top: 50px;
+	width: 570px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about .feedback .feedback-footer input[type="text"] {
+   width: 270px;
+   border: none;
+   background-color: rgba(255, 255, 255, 0.1);
+   outline: none; 
+   height: 24px; 
+   padding: 20px 20px;
+   color: #ffffff;
+   font-size: 13px;
+   font-family: Tahoma; 
+   text-transform: uppercase;
+}
+
+.about .feedback .feedback-footer textarea {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #ffffff;
+	margin-top: 30px;
+	padding: 20px 20px;
+	width: 100%;
+	border: none;
+	height: 130px;
+   	outline: none; 
+}
+
+.about .feedback .feedback-footer button {
+	margin-top: 30px;
+	background-color: #917537!important;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 20px 40px;
+	font-weight: 800px;
+   	outline: none; 
+}
 
 /* ABOUT SECTION END */
