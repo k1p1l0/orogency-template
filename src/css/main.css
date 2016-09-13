@@ -165,7 +165,7 @@
 	color: #d3a13e;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 4vh;
+	font-size: 37px;
 	font-weight: 800;
 	text-decoration: none;
 	word-spacing: 9999999px;
@@ -247,11 +247,9 @@
 /* CONTENT DEVELOPMENT START*/
 
 .content-development {
+	align-items: center;
 	padding: 60px 0px!important;
 	background-color: #a67423;
-}
-
-.content-development .max {
 }
 
 .content-development .content-header h1 {
@@ -297,4 +295,11 @@
 	margin-bottom: 10px;
 }
 
+.content-development .logos{
+	height: 295px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/content/logos.jpg);
+}
 /* CONTENT DEVELOPMENT END*/
