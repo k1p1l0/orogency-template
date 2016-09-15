@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url(../fonts/avenir.ttf);
+}
+
+@font-face {
+	font-family: 'Tex bold';
+	src: url(../fonts/texgyreadventor-bold-webfont.ttf);
+}
+
+@font-face {
+	font-family: 'Tex Regular';
+	src: url(../fonts/texgyreadventor-regular-webfont.ttf);
+}
+
+@font-face {
+	font-family: 'Avenir Next Bold';
+	src: url(../fonts/avenir-next-bold.ttf);
+}
+
+@font-face {
+	font-family: 'Avenir Next Regular';
+	src: url(../fonts/avenir-next-regular.ttf);
+}
+
+/* AVENIR 65*/
+@font-face {
+	font-family: 'Avenir Next Medium'; 
+	src: url(../fonts/Avenir-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'Avenir Ultra Light';
+	src: url(../fonts/avenir-next-thin.ttf);
+}
+
+@font-face {
+	font-family: 'Avenir Black';
+	src: url(../fonts/Avenir-Black.ttf);
+}
+
+@font-face {
+	font-family: 'Avenir Roman';
+	src: url(../fonts/Avenir-Roman.ttf);
+}

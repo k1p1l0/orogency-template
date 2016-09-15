@@ -10,10 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.7.9",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-bower": "0.0.13",
+    "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
     "gulp-html-replace": "^1.6.1",
     "gulp-livereload": "^3.8.1",
     "gulp-postcss": "^6.2.0",

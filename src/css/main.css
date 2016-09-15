@@ -34,10 +34,19 @@ body {
 }
 
 .main-navigation .logo {
+	font-family: 'Avenir Next Regular';
 	font-size: 27px;
 	padding-left: 40px;
 	color: #d3a13e;
+	letter-spacing: 5px;
 }
+
+.main-navigation .logo bold {
+	font-family: 'Avenir Next Bold';
+	letter-spacing: 0px;
+}
+
+
 
 .main-navigation .link-list {
 	padding-right: 50px;
@@ -118,14 +127,18 @@ body {
 }
 
 .section-heading h1 {
-	color: #d3a13e;
+	font-family: 'Avenir Next Regular';
 	font-size: 58px;
 	margin: 45px 0;
 	text-transform: uppercase;
+	color: #d3a13e;
+	letter-spacing: 10px;
 }
 
 .section-heading h3 {
 	color: #d3a13e;
+	font-family: 'Avenir Next Regular';
+	font-weight: 600;
 	font-size: 25px;
 	text-transform: uppercase;
 }
@@ -142,7 +155,9 @@ body {
 	padding: 10px 30px!important;
 	font-size: 30px!important;
 	font-weight: 700;
+	font-family: 'Avenir Next Medium';
 	text-transform: uppercase;
+	letter-spacing: 10px;
 }
 /* CONSULTANT SECTION END */
 
@@ -152,6 +167,7 @@ body {
 	padding: 10px 80px!important;
 	background-color: #151515;
 	letter-spacing: 20px;	
+	font-family: 'Avenir Next Bold';
 }
 
 .services .item {
@@ -202,7 +218,7 @@ body {
 .branding h2 {
 	color: #d3a13e;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-family: 'Avenir Ultra Light';
 	letter-spacing: 15px;
 }
 
@@ -214,17 +230,20 @@ body {
 .branding .normal {
 	color: #c5c5c5;
 	font-size: 16px;
+	font-family: 'Avenir Black';
 	letter-spacing: 5px;
 }
 
 .branding .big {
 	font-size: 50px;
 	font-weight: 700;
+	font-family: 'Avenir Black';
 }
 
 .branding .small {
 	text-transform: none;
 	font-size: 18px;
+	font-family: 'Avenir Next Medium'; 
 }
 
 .branding .icon-shield {
@@ -244,6 +263,7 @@ body {
 	font-size: 26px;
 	color: #3c321c;
 	padding: 6px 50px;
+	font-family: 'Avenir Black';
 }
 /* BRANDING SECTION END */
 
@@ -258,7 +278,9 @@ body {
 }
 
 .content-development .content-header h1 {
+	font-family: 'Avenir Next Medium'; 
 	padding-bottom: 20px;
+	letter-spacing: 10px;
 	margin: 0!important;
 	color: #362716;
 	text-transform: uppercase;
@@ -278,8 +300,9 @@ body {
 }
 
 .content-development p {
+	font-family: 'Avenir Next Medium'; 
 	white-space: pre-line;
-	color: #241902;
+	color: #46310b;
 	font-size: 21px;
 }
 
@@ -288,6 +311,7 @@ body {
 	background-color: #6c4d1c;
 	font-size: 26px;
 	color: #a68135;
+	font-family: 'Avenir Black';
 	padding: 6px 50px;
 }
 
@@ -351,20 +375,27 @@ body {
 
 .about .greeting h1 {
 	font-size: 109px;
-	color: #ba933e;
-	opacity: .5;
+	font-family: 'Avenir Black';
+	color: #e8ad25;
+	opacity: .4;
+	padding: 0;
+	margin: 0;
 }
 
 .about .greeting h3 {
 	font-size: 35px;
+	font-family: 'Avenir';
 	color: #999999;
 	opacity: .5;
+	padding: 0;
+	margin: 0;
 }
 
 .about .greeting h2 {
 	font-size: 53px;
 	color: #eeeeee;
 	opacity: .5;
+	font-family: 'Tex bold';
 }
 
 .about .greeting span.artist {
@@ -392,6 +423,7 @@ body {
 .about .feedback .feedback-head h1 {
 	text-transform: uppercase;
 	color: #ffffff;
+	font-family: 'Avenir Black';
 	font-weight: 700;
 	margin-right: 25px;
 }
@@ -416,6 +448,7 @@ body {
 	color: #e7e7e7;
 	font-size: 22px;
 	white-space: pre-line;
+	font-family: 'Avenir Roman';
 }
 
 .about .feedback .feedback-main {
@@ -440,12 +473,19 @@ body {
 	content: '\f003';
 }
 
+.about .feedback .feedback-main .phone {
+	font-family: 'Tex Regular';
+	font-size: 31px;
+	letter-spacing: 5px;
+	position: relative;
+}
+
 .about .feedback .feedback-main .phone:before {
 	position: absolute;
-	left: 0;
-	top: -10px;
+	left: 5px;
+	top: -5px;
     font-family: "FontAwesome";
-    font-size: 40px;
+    font-size: 45px;
 	content: '\f095';
 }
 
@@ -466,7 +506,7 @@ body {
    padding: 20px 20px;
    color: #ffffff;
    font-size: 13px;
-   font-family: Tahoma; 
+	font-family: 'Tex Regular', Tahoma;
    text-transform: uppercase;
 }
 
@@ -489,6 +529,7 @@ body {
 	font-size: 13px;
 	padding: 20px 40px;
 	font-weight: 800px;
+	font-family: 'Tex bold';
    	outline: none; 
 }
 /* ABOUT SECTION END */
@@ -503,5 +544,6 @@ footer.main-footer {
 footer.main-footer .address{
 	color: #868686;
 	margin-top: 10px;
+	font-family: 'Avenir Ultra Light';
 }
 /* MAIN FOOTER END */
